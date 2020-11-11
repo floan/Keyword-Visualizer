@@ -1,5 +1,5 @@
 const handleRequestFunction = async (id) =>{
-  const URL = 'http://localhost:5000/get-data?id=' + id.toString();
+  const URL = 'http://192.168.10.86:5000/get-data?id=' + id.toString();
   const response = await fetch(URL, {
     method: 'GET',
     headers: {

@@ -1,6 +1,6 @@
 const handleVisualizeData = async (transcript) =>{
   const payload = {'transcript' : transcript};
-  const URL = 'http://localhost:5000/send-transcript';
+  const URL = 'http://192.168.10.86:5000/send-transcript';
   const response = await fetch(URL, {
     method: 'POST', 
     headers: {

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,bold,italic&subset=latin,latin-ext");
+
+body{
+	font-family: Montserrat;
+}
+
+h1{
+	font-size: 5rem;
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+.wrapper{
+	margin: auto;
+	margin-top: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	width: 30vw;
+	padding: 10px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}

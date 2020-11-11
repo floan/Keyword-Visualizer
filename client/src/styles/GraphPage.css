@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,bold,italic&subset=latin,latin-ext");
+
+body{
+	font-family: Montserrat !important;
+}
+
+h1{
+	font-size: 3rem;
+	flex-basis: 100%;
+	margin-bottom: 10px;
+}
+
+.wrapper-gp, .wrapper-find-gp, .error{
+	margin: auto;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.error{
+	color: red;
+}
+
+.wrapper-find-gp{
+	margin-top: 10vh;
+}
+
+.ipt-gp, .btn{
+	font-family: Montserrat;
+	font-size: 20px;
+	background: white;
+	border: solid;
+	border-color: #FFCC00;
+	border-width: 3px;
+	border-radius: 5px;
+	width: 15rem;
+	height: 3rem;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
+	outline-width: 100px;
+	outline-color: #FFCC00;
+	box-sizing: content-box;
+}

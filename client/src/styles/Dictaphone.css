@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,bold,italic&subset=latin,latin-ext");
+
+
+body{
+	font-family: Montserrat;
+}
+
+.recordButton{
+	font-family: Montserrat;
+	font-size: 20px;
+	background-color: #990000;
+	color: #FFCC00;
+	display: block;
+	border: none;
+	padding: 15px 32px;
+	width: 25rem;
+	height: 5rem;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px;
+	outline-width: 100px;
+	outline-color: #FFCC00;
+}
+
+.transcriptBox{
+	display: block;
+	max-width: 25rem;
+}

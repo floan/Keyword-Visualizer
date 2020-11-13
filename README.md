@@ -1,5 +1,6 @@
-# YOU CAN VIEW THE DEMO [HERE](https://drive.google.com/file/d/1HdVEE0lmZ60m23Cj7dV-BgKkfyrdoDq0/view?usp=sharing)
+# Introduction
 Team Members: Fayez Loan
+You can view the demo video [here](https://drive.google.com/file/d/1HdVEE0lmZ60m23Cj7dV-BgKkfyrdoDq0/view?usp=sharing)
 
 # STEPS TO COMPILE: 
 
@@ -15,10 +16,10 @@ Team Members: Fayez Loan
 
 - Install Python
 - Install Flask
-- Install Flask_Cors (pip3 install -U flask-cors)
+- Install Flask_Cors `pip3 install -U flask-cors`
 
 
-#External Libraries Used
+# External Libraries Used
 
 - ReactJs (a JavaScript libarary) for the front-end 
 - Flask (a Python library) for the back-end

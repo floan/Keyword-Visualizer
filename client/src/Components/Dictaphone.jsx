@@ -32,7 +32,7 @@ const Dictaphone = () => {
                                     id: response.id});
           }
         }
-      }>Visualize keywords</button>
+      }>Visualize Keywords</button>
       <p className="transcriptBox">{transcript}</p>
     </div>
   )

@@ -22,7 +22,8 @@ You can view the demo video [here](https://drive.google.com/file/d/1HdVEE0lmZ60m
 # Running the Application
 
 - From the terminal, in the client folder type `yarn start` to start up the React environment. This is hosted on `localhost:3000`
-- From the terminal, in the server folder type `python3 server.py` to start up the Flask server. This is hosted on `localhost:5000` by default. 
+- From the terminal, in the server folder first create the stop_word_data.pickle file by running `python3 create_stop_words.py`. Then run `python3 server.py` to start up the Flask server. This is hosted on `localhost:5000` by default. 
+
 
 Enjoy!
 
